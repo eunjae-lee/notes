@@ -7,6 +7,7 @@ const config: Config = {
       { type: "mastodon", env_var_prefix: "KO_" },
     ],
   },
+  urlTemplate: (issue) => `https://eunjae.dev/notes/${issue.number}`,
 };
 
 export default config;
